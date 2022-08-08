@@ -28,13 +28,16 @@ class LinkedList:
         Insert node at end of the list
         :param data: integer data that will be used to create a node
         """
-        # Write code here
+        
+        while(next!= NULL):
+            temp->next=data
+  
 
     def status(self):
         """
         It prints all the elements of list.
         """
-        # write code here
+        print(data)
 
 
 class Solution:
