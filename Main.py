@@ -36,9 +36,14 @@ class LinkedList:
         Insert node at end of the list
         :param data: integer data that will be used to create a node
         """
-        
-        while(next!= NULL):
-            temp->next=data
+        new = Node(data, None)
+        current = self.head
+        if current is None:
+            self.head = new
+        else:
+            while current.next is not None:
+                current = current.next
+            current.next = new
   
 
     def status(self):
