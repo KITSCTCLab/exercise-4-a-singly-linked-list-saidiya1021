@@ -3,7 +3,7 @@ from typing import Optional
 
 class Node:
     """
-    Provide necessary documentation
+    This ckas
     """
     def __init__(self, data=None, next=None):
         """
