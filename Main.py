@@ -50,7 +50,12 @@ class LinkedList:
         """
         It prints all the elements of list.
         """
-        print(data)
+        elements = []
+        current = self.head
+        while current:
+            elements.append(current.data)
+            current = current.next
+        print(elements)
 
 
 class Solution:
